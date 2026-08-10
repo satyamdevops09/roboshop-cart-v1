@@ -8,5 +8,5 @@ on:
   workflow_dispatch:
 
 jobs:
-  call-workflow-in-another-repo:
+  reuse:
     uses: satyamdevops09/roboshop-github-actions/.github/workflows/ci-main.yml@main
